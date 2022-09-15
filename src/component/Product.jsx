@@ -25,7 +25,7 @@ const addProduct=((product)=>{
       setLoading(false);
     };
     getProduct();
-  }, []);
+  }, );
   const Loading = () => {
     return <>
     <div className="col-md-5">
